@@ -19,5 +19,14 @@ class cloudsSeeder extends Seeder
         cloud::create(['dt' => '1611166746', 
         'idcities' => 4
         ]);
+        cloud::create(['dt' => '1611166746', 
+        'idcities' => 1
+        ]);
+        cloud::create(['dt' => '1611166746', 
+        'idcities' => 2
+        ]);
+        cloud::create(['dt' => '1611166746', 
+        'idcities' => 3
+        ]);
     }
 }
